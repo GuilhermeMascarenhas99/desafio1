@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 :root {
     --vinho: #660027;
     --cinza: #6C6969;
@@ -26,23 +27,25 @@ main {
 
 nav {
     display: flex;
-    justify-content:space-between ;
+    justify-content: space-between;
 }
- nav ul {
-    display: flex;
- }
 
- nav ul li {
+nav ul {
+    display: flex;
+}
+
+nav ul li {
     list-style-type: none;
     padding: 20px 20px;
- }
- nav ul li a {
+}
+
+nav ul li a {
     color: black;
     text-decoration: none;
     cursor: pointer;
- }
- 
-.logo img{
+}
+
+.logo img {
     max-width: 155px;
     height: 70px;
     top: 71px;
@@ -60,7 +63,7 @@ main h1 {
     margin: 20px 0px;
 }
 
- .paragrafo1 {
+.paragrafo1 {
     width: 1200px;
     height: 78px;
     left: 120px;
@@ -74,9 +77,9 @@ main h1 {
     align-items: flex-end;
 
     color: #6C6969;
- }
+}
 
- .paragrafo2 {
+.paragrafo2 {
     width: 1200px;
     height: 149px;
     left: 120px;
@@ -90,7 +93,7 @@ main h1 {
     align-items: flex-end;
 
     color: #6C6969;
- }
+}
 
 main h1 {
     width: 92px;
@@ -114,7 +117,7 @@ main h1 {
 .card1 {
     box-sizing: border-box;
 
-    margin:80px 30px 50px 0px;
+    margin: 80px 30px 50px 0px;
     width: 250px;
     height: 410px;
     left: 130px;
@@ -126,8 +129,8 @@ main h1 {
 
 .card2 {
     box-sizing: border-box;
-    
-    margin:80px 30px 50px 30px;
+
+    margin: 80px 30px 50px 30px;
     width: 250px;
     height: 410px;
     left: 604px;
@@ -140,7 +143,7 @@ main h1 {
 .card3 {
     box-sizing: border-box;
 
-    margin:80px 0px 50px 30px;
+    margin: 80px 0px 50px 30px;
     width: 250px;
     height: 410px;
     left: 1078x;
@@ -297,7 +300,7 @@ main h1 {
 footer {
     display: flex;
     justify-content: center;
-    height:  120px;
+    height: 120px;
     left: 0px;
     top: 1530px;
 

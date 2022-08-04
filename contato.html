@@ -1,28 +1,63 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
-
-    <link rel="stylesheet" href="estilo1.css">
-
+    <title>Divina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-    <div class="full">
-        <h1>Contato</h1>
-        <section id="Contato">
-            <form>
-                <input type="nomeCompleto" name="Nome Completo" placeholder="Digite seu nome completo:">
-                <input type="email" name="email" placeholder="Digite seu e-mail:">
-                <input type="telefone" name="Telefone" placeholder="Telefone com DDD:">
-                <textarea type="mensagem" name="Mensagem" placeholder="Digite sua Mensagem:"></textarea>
-                <button type="submit">Enviar</button>
 
-            </form>
-        </section>
-    </div>
+<body>
+
+    <header class="header container">
+        <img src="./img/logo 1.png" alt="logo Divina">
+        <nav class="lista">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="boxes container">
+        <div class="container-form">
+            <h1>Contato</h1>
+            <div class="form-container">
+                <form class="form">
+                    <label for="name">Nome Completo</label>
+                    <input type="text">
+                    <div class="quadrado"></div>
+                    <label for="email">e-mail</label>
+                    <input type="email">
+                    <label for="tel">Telefone</label>
+                    <input type="tel">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem"></textarea>
+                    <button>Enviar</button>
+                </form>
+            </div>
+        </div>
+        <div class="container-contact-bg">
+            <div class="container-contact-content">
+                <p><b>Fone: </b>31 99999 9666</p>
+                <p><b>e-mail: </b>contato@divinafashion.com</p>
+                <p><b>Endereço: </b>AV. Principal, 123 . BH/MG</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-bg-contact">
+        <div class="footer-content">
+            <p>31 99999 9666 - contato@divinafashion.com</p>
+            <p>AV. Principal, 123 . BH/MG</p>
+        </div>
+    </footer>
 
 </body>
+
 </html>
