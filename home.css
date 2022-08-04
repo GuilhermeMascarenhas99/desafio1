@@ -63,27 +63,13 @@ main h1 {
     margin: 20px 0px;
 }
 
-.paragrafo1 {
+.paragrafo {
+    
     width: 1200px;
     height: 78px;
     left: 120px;
     top: 708px;
-
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    display: flex;
-    align-items: flex-end;
-
-    color: #6C6969;
-}
-
-.paragrafo2 {
-    width: 1200px;
-    height: 149px;
-    left: 120px;
-    top: 816px;
+    margin-top: 20px;
 
     font-style: normal;
     font-weight: 400;
