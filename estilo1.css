@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -20,7 +20,7 @@ header {
 nav,
 section,
 main {
-    max-width: 1200px;
+    width: 1200px;
     margin: 0px auto;
 }
 
@@ -39,21 +39,27 @@ nav {
  nav ul li a {
     color: black;
     text-decoration: none;
+    cursor: pointer;
  }
  
 .logo img{
-    width: 155px;
+    max-width: 155px;
     height: 70px;
     top: 71px;
     left: 120px;
 }
 
 .home img {
-    width: 1200px;
+    max-width: 1200px;
     height: 450px;
     top: 192px;
     left: 120px;
 }
+
+main h1 {
+    margin: 20px 0px;
+}
+
  .paragrafo1 {
     width: 1200px;
     height: 78px;
@@ -108,6 +114,7 @@ main h1 {
 .card1 {
     box-sizing: border-box;
 
+    margin:80px 30px 50px 0px;
     width: 250px;
     height: 410px;
     left: 130px;
@@ -120,6 +127,7 @@ main h1 {
 .card2 {
     box-sizing: border-box;
     
+    margin:80px 30px 50px 30px;
     width: 250px;
     height: 410px;
     left: 604px;
@@ -131,6 +139,8 @@ main h1 {
 
 .card3 {
     box-sizing: border-box;
+
+    margin:80px 0px 50px 30px;
     width: 250px;
     height: 410px;
     left: 1078x;
@@ -241,6 +251,7 @@ main h1 {
     justify-content: center;
     align-items: center;
     color: #660027;
+    cursor: pointer;
 }
 
 .card2 button {
@@ -260,6 +271,7 @@ main h1 {
     justify-content: center;
     align-items: center;
     color: #660027;
+    cursor: pointer;
 }
 
 .card3 button {
@@ -279,18 +291,26 @@ main h1 {
     justify-content: center;
     align-items: center;
     color: #660027;
+    cursor: pointer;
 }
 
 footer {
+    display: flex;
+    justify-content: center;
     width: 1440px;
-    height: 120px;
+    height:  120px;
     left: 0px;
     top: 1530px;
 
     background: #660027;
 }
 
-footer p {
+footer ul li {
+    list-style-type: none;
+}
+
+footer ul li p {
+
     width: 283px;
     height: 51px;
     left: 617px;
