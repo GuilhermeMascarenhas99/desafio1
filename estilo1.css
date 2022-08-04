@@ -54,7 +54,7 @@ nav {
     top: 192px;
     left: 120px;
 }
- main p {
+ .paragrafo1 {
     width: 1200px;
     height: 78px;
     left: 120px;
@@ -69,10 +69,36 @@ nav {
 
     color: #6C6969;
  }
-  main h1,
-    h2 {
-        color: #660027;
-    }
+
+ .paragrafo2 {
+    width: 1200px;
+    height: 149px;
+    left: 120px;
+    top: 816px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+
+    color: #6C6969;
+ }
+
+main h1 {
+    width: 92px;
+    height: 42px;
+    left: 120px;
+    top: 666px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #660027
+}
 
 #Estilos {
     display: flex;
@@ -80,7 +106,8 @@ nav {
 }
 
 .card1 {
-    box-sizing: border-box; 
+    box-sizing: border-box;
+
     width: 250px;
     height: 410px;
     left: 130px;
@@ -92,6 +119,7 @@ nav {
 
 .card2 {
     box-sizing: border-box;
+    
     width: 250px;
     height: 410px;
     left: 604px;
@@ -110,4 +138,171 @@ nav {
 
     background: #FFFFFF;
     border: 1px solid #9E9B9B;
+}
+
+.card1 h3 {
+    margin: 10px;
+    width: 111px;
+    height: 28px;
+    left: 158px;
+    top: 1234px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #660027
+}
+
+.card2 h3 {
+    margin: 10px;
+    width: 57px;
+    height: 28px;
+    left: 632px;
+    top: 1234px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #660027
+}
+
+.card3 h3 {
+    margin: 10px;
+    width: 116px;
+    height: 28px;
+    left: 1106px;
+    top: 1234px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #660027
+}
+
+.card1 span {
+    margin: 10px;
+    display: flex;
+    width: 197px;
+    height: 64px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7D7777;
+}
+
+.card2 span {
+    margin: 10px;
+    display: flex;
+    width: 197px;
+    height: 64px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7D7777;
+}
+
+.card3 span {
+    margin: 10px;
+    display: flex;
+    width: 197px;
+    height: 64px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7D7777;
+}
+
+.card1 button {
+    margin: 10px;
+    display: flex;
+    box-sizing: border-box;
+
+    width: 128px;
+    height: 42px;
+    left: 158px;
+    top: 1379px;
+
+    background: #FFFFFF;
+    border: 2px solid #660027;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #660027;
+}
+
+.card2 button {
+    margin: 10px;
+    display: flex;
+    box-sizing: border-box;
+
+    width: 128px;
+    height: 42px;
+    left: 632px;
+    top: 1379px;
+
+    background: #FFFFFF;
+    border: 2px solid #660027;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #660027;
+}
+
+.card3 button {
+    margin: 10px;
+    display: flex;
+    box-sizing: border-box;
+
+    width: 128px;
+    height: 42px;
+    left: 1106px;
+    top: 1379px;
+
+    background: #FFFFFF;
+    border: 2px solid #660027;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #660027;
+}
+
+footer {
+    width: 1440px;
+    height: 120px;
+    left: 0px;
+    top: 1530px;
+
+    background: #660027;
+}
+
+footer p {
+    width: 283px;
+    height: 51px;
+    left: 617px;
+    top: 1557px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    color: #fefefe;
 }
