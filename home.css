@@ -1,230 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 :root {
     --vinho: #660027;
     --cinza: #6C6969;
-    --cinzaclaro: #7D7777;
+    --cinzaClaro: #7D7777;
+    --preto: #000000;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-}
-
-header {
+    font-family:  'Roboto', sans-serif;
     width: 100%;
-
-}
-
-nav,
-section,
-main {
     width: 1200px;
     margin: 0px auto;
 }
 
-nav {
+.topo {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
+    padding: 20px 0px;
 }
 
-nav ul {
-    display: flex;
-}
-
-nav ul li {
-    list-style-type: none;
-    padding: 20px 20px;
-}
-
-nav ul li a {
-    color: black;
-    text-decoration: none;
+header nav a {
+    margin-left: 20px;
+    color: var(--preto);
     cursor: pointer;
 }
 
-.logo img {
-    max-width: 155px;
-    height: 70px;
-    top: 71px;
-    left: 120px;
-}
-
-.home img {
-    max-width: 1200px;
-    height: 450px;
-    top: 192px;
-    left: 120px;
-}
-
-main h1 {
-    margin: 20px 0px;
-}
-
-.paragrafo {
-    
-    width: 1200px;
-    height: 78px;
-    left: 120px;
-    top: 708px;
-    margin-top: 20px;
-
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
+.conteudo {
     display: flex;
-    align-items: flex-end;
-
-    color: #6C6969;
+    flex-direction: column;
 }
 
-main h1 {
-    width: 92px;
-    height: 42px;
-    left: 120px;
-    top: 666px;
-
-    font-style: normal;
+.primeiroBloco h1 {
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
+    display: flex; 
+    margin: 20px 0px;
 
-    color: #660027
+    color: var(--vinho);
 }
 
-#Estilos {
+.paragrafo {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--cinza);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 40px 0px;
+}
+
+.blocoCard {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
+    margin: 50px 0px;    
 }
 
 .card1 {
     box-sizing: border-box;
-
-    margin: 80px 30px 50px 0px;
-    width: 250px;
-    height: 410px;
-    left: 130px;
-    top: 1048px;
-
-    background: #FFFFFF;
     border: 1px solid #9E9B9B;
+    width: 250px;
 }
 
 .card2 {
     box-sizing: border-box;
-
-    margin: 80px 30px 50px 30px;
-    width: 250px;
-    height: 410px;
-    left: 604px;
-    top: 1048px;
-
-    background: #FFFFFF;
     border: 1px solid #9E9B9B;
+    width: 250px;
 }
 
 .card3 {
     box-sizing: border-box;
-
-    margin: 80px 0px 50px 30px;
-    width: 250px;
-    height: 410px;
-    left: 1078x;
-    top: 1048px;
-
-    background: #FFFFFF;
     border: 1px solid #9E9B9B;
+    width: 250px;
 }
 
 .card1 h3 {
-    margin: 10px;
-    width: 111px;
-    height: 28px;
-    left: 158px;
-    top: 1234px;
-
-    font-style: normal;
+    display: flex;
+    margin: 20px;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
 
-    color: #660027
+    color: var(--vinho);
 }
 
 .card2 h3 {
-    margin: 10px;
-    width: 57px;
-    height: 28px;
-    left: 632px;
-    top: 1234px;
-
-    font-style: normal;
+    display: flex;
+    margin: 30px;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
 
-    color: #660027
+    color: var(--vinho)
 }
 
 .card3 h3 {
-    margin: 10px;
-    width: 116px;
-    height: 28px;
-    left: 1106px;
-    top: 1234px;
-
-    font-style: normal;
+    display: flex;
+    margin: 30px;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
 
-    color: #660027
+    color: var(--vinho)
 }
 
 .card1 span {
-    margin: 10px;
     display: flex;
-    width: 197px;
-    height: 64px;
-
-    font-style: normal;
+    margin: 30px;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    color: #7D7777;
+    color: var(--cinzaClaro)
 }
 
 .card2 span {
-    margin: 10px;
     display: flex;
-    width: 197px;
-    height: 64px;
-
-    font-style: normal;
+    margin: 30px;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    color: #7D7777;
+    color: var(--cinzaClaro)
 }
 
 .card3 span {
-    margin: 10px;
     display: flex;
-    width: 197px;
-    height: 64px;
-
-    font-style: normal;
+    margin: 30px;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    color: #7D7777;
+    color: var(--cinzaClaro)
 }
 
 .card1 button {
-    margin: 10px;
+    margin: 30px;
     display: flex;
     box-sizing: border-box;
 
@@ -234,84 +155,83 @@ main h1 {
     top: 1379px;
 
     background: #FFFFFF;
-    border: 2px solid #660027;
+    border: 2px solid var(--vinho);
     border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #660027;
+    color: var(--vinho);
     cursor: pointer;
 }
 
 .card2 button {
-    margin: 10px;
+    margin: 30px;
     display: flex;
     box-sizing: border-box;
 
     width: 128px;
     height: 42px;
-    left: 632px;
+    left: 158px;
     top: 1379px;
 
     background: #FFFFFF;
-    border: 2px solid #660027;
+    border: 2px solid var(--vinho);
     border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #660027;
+    color: var(--vinho);
     cursor: pointer;
 }
 
 .card3 button {
-    margin: 10px;
+    margin: 30px;
     display: flex;
     box-sizing: border-box;
 
     width: 128px;
     height: 42px;
-    left: 1106px;
+    left: 158px;
     top: 1379px;
 
     background: #FFFFFF;
-    border: 2px solid #660027;
+    border: 2px solid var(--vinho);
     border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #660027;
+    color: var(--vinho);
     cursor: pointer;
 }
 
-footer {
+.rodape {
+
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 1440px;
     height: 120px;
-    left: 0px;
-    top: 1530px;
+    margin-left: -120px;
 
-    background: #660027;
+
+    background: var(--vinho);
 }
 
-footer ul li {
-    list-style-type: none;
-}
-
-footer ul li p {
+footer p {
 
     width: 283px;
     height: 51px;
     left: 617px;
     top: 1557px;
 
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     display: flex;
     align-items: flex-end;
-    text-align: center;
+    text-align:center;
     justify-content: center;
-
+    
     color: #fefefe;
 }
