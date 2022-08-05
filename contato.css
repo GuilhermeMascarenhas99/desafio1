@@ -48,7 +48,6 @@ header nav a {
     border-radius: 5px;
     max-width: 100%;
     width: 780px;
-    margin: 20px;
     
     justify-content: center;
 }
@@ -139,6 +138,7 @@ section div h1 {
     width: 400px;
     height: 700px;
     margin: 20px;
+    padding: 50px;
     
 
     background: var(--vinho);
