@@ -17,7 +17,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     width: 100%;
-    width: 1200px;
+    max-width: 1200px;
     margin: 0px auto;
 }
 
@@ -26,7 +26,9 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0px;
+    width: 100%;
+    padding: 20px;
+    max-width: 1160px;
 }
 
 header nav a {
@@ -35,18 +37,33 @@ header nav a {
     cursor: pointer;
 }
 
-.conteudo {
+
+.conteudo1 {
     box-sizing: border-box;
 
     display: flex;
     flex-direction: column;
-    width: 780px;
-    height: 700px;
-    left: 121px;
-    top: 192px;
 
     border: 1px solid var(--vinho);
     border-radius: 5px;
+    max-width: 100%;
+    width: 780px;
+    margin: 20px;
+    
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 0% auto;
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: var(--cinza);
 }
 
 section div h1 {
@@ -62,48 +79,26 @@ section div h1 {
     color: var(--vinho);
 }
 
-.infoContato label {
-    display: flex;
-    align-items: center;
-    justify-content:flex-start;
-    margin: 20px 190px 0px;
-
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-
-    color: var(--cinza);
-}
-
 .infoContato input {
     box-sizing: border-box;
 
     display: flex;
-    align-items: center;
-    justify-content:flex-start;
-    margin: 0px 190px;
-
     width: 400px;
     height: 42px;
-    left: 320px;
-    top: 337px;
 
     border: 1px solid var(--vinho);
     border-radius: 4px;
+    margin-bottom: 20px;
 }
 
 .infoContato textarea {
     box-sizing: border-box;
 
     display: flex;
-    align-items: center;
-    justify-content:flex-start;
-    margin: 0px 190px;
 
     width: 400px;
     height: 125px;
-    left: 320px;
-    top: 633px;
+    margin-bottom: 20px;
 
     border: 1px solid var(--vinho);
     border-radius: 4px;
@@ -115,17 +110,14 @@ section div h1 {
     display: flex;
     align-items: center;
     justify-content:center;
-    margin: 50px 190px;
     padding: 22px 70px;
 
     background: var(--vinho);
     border: 2px solid var(--vinho);
     border-radius: 4px;
 
-    width: 66px;
-    height: 28px;
-    left: 351px;
-    top: 799px;
+    width: 128px;
+    height: 42px;
 
     font-weight: 400;
     font-size: 24px;
@@ -142,11 +134,11 @@ section div h1 {
 }
 
 .informacao {
+    
+    display: flex;
     width: 400px;
     height: 700px;
-    left: 920px;
-    top: 200px;
-    margin: 0px 20px;
+    margin: 20px;
     
 
     background: var(--vinho);
