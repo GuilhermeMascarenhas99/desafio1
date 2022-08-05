@@ -1,0 +1,26 @@
+body {
+    flex-wrap: wrap;
+}
+
+@media(max-width: 768px){
+    .bannerHome {
+        display: none;
+    }
+}
+
+@media(max-width: 360px){
+    .topo {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .topo nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .topo nav a {
+        padding: 10px;
+    }
+    .blocoCard {
+        justify-content: center;
+    }
+}
