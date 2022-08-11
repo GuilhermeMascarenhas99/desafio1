@@ -16,9 +16,9 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    width: 100%;
     max-width: 1200px;
     margin: 0px auto;
+    padding: 20px;
 }
 
 .topo {
@@ -27,36 +27,40 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 20px;
-    max-width: 1160px;
+    
 }
 
 header nav a {
-    margin-left: 20px;
+    margin: 20px;
     color: var(--preto);
     cursor: pointer;
 }
 
+.conteudo{
+    display: flex;
+    justify-content: space-between ;
+    flex-direction: row;
+    margin: 20px 0px;
+    
+}
 
 .conteudo1 {
     box-sizing: border-box;
 
     display: flex;
     flex-direction: column;
-
+    align-items: center;
+    width: 60%;
+    height: 700px;
     border: 1px solid var(--vinho);
-    border-radius: 5px;
-    max-width: 100%;
-    width: 780px;
-    
-    justify-content: center;
+    border-radius: 5px;   
+
 }
 
 form {
     display: flex;
     flex-direction: column;
     align-items: left;
-    margin: 0% auto;
 
     font-weight: 400;
     font-size: 24px;
@@ -68,7 +72,6 @@ form {
 section div h1 {
     display: flex;
     align-items: center;
-    justify-content: center;
     margin: 20px;
 
     font-weight: 400;
@@ -127,25 +130,23 @@ section div h1 {
     cursor: pointer;
 }
 
-.conteudo {
+.conteudo2 {
     display: flex;
-    flex-direction: row;
+    width: 400px;
+    height: 700px;
+    margin: 0px 20px;
 }
 
 .informacao {
     
-    display: flex;
-    width: 400px;
-    height: 700px;
-    margin: 20px;
-    padding: 50px;
-    
+    display: flex;     
 
     background: var(--vinho);
+    padding: 10px;
 
+    display: flex;
     font-size: 24px;
     line-height: 28px;
-    display: flex;
     align-items: center;
     text-align: center;
 

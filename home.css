@@ -18,7 +18,6 @@
 body {
     font-family: 'Roboto', sans-serif;
     width: 100%;
-    /* max-width: 1200px; */
     margin: 0px auto;
 }
 
@@ -27,19 +26,20 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0px;
-    max-width: 1200px;
-    margin: 0px auto;
+    margin: 0px 30px;
+    padding: 20px;
 }
 
 .primeiroBloco img {
     width: 100%;
+    
 }
 
 header nav a {
     margin-left: 20px;
     color: var(--preto);
     cursor: pointer;
+    
 }
 
 .conteudo {
@@ -47,6 +47,7 @@ header nav a {
     flex-direction: column;
     max-width: 1200px;
     margin: 0px auto;
+    padding: 20px;
 }
 
 .primeiroBloco h1 {
@@ -214,18 +215,14 @@ header nav a {
 }
 
 .rodape {
-
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* padding: 20px;
-    width: 1440px; */
+    
     height: 120px;
-    /* margin-left: -120px; */
-    width: 100%;
-
-
-    background: var(--vinho);
+    
+    
+    background-color: var(--vinho);
 }
 
 footer p {

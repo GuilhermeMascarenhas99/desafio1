@@ -1,38 +1,19 @@
-
 @media(max-width: 768px) {
+    body{
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 20px;
+    }
     .infoContato input, .infoContato textarea, .infoContato label {
         max-width: 90%;
     }
+
     form {
-        max-width: 90%;
         width: 100%;
         padding: 20px;
     }
-    .informacao {
-        max-width: 90%;
-        width: 100%;
-        margin: 0px auto;
-        
-    }
-
-
 }
 
 
 @media(max-width: 360px) {
-    body {
-       width: 320px;
-    }
-    .conteudo {
-        display: flex;
-        flex-direction: column;
-        max-width: 90%;
-    }
-    .informacao {
-        display: flex;
-        justify-content: center;
-        font-size: 14px;
-        height: 150px;
-        padding: 0px;
-    }
 }
